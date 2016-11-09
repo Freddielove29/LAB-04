@@ -33,11 +33,8 @@
  * สั่ง Run โปรแกรม เพื่อดูผลการทดลอง 
 
 ####บันทึกผลการทดลอง
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
+ Console.Write(“Hello”); เป็นการแสดงผลออกทางหน้าจอ
+
 
 แก้ไขโปรแกรม ให้เป็นดังรูปด้านล่างนี้    
 
@@ -45,21 +42,15 @@
 
  * สั่ง Run โปรแกรมและบันทึกผลที่ได้จากการรันโปรแกรม
  * การรันแล้วทำให้หน้าจอ console ยังคงแสดงผลค้างอยู่นั้น ให้เลือกเมนู Debug -> Start Without Debugging (Ctrl+F5) มิฉะนั้น หน้าจอ console จะหายไปอย่างรวดเร็ว
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
+Console.Write(“Hello”); Console.Write(“Hello”); เป็นการแสดงผลออกทางหน้าจอในบรรทัดเดียวกัน
+
 
 
 ### คำถาม 4.1 
 
 ผลที่ได้จากการทดลอง เป็นอย่างที่นักศึกษาคิดหรือไม่ อย่างไร  จงอธิบาย
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
+ เป็นครับ เพราะการ ใช้คำสั่ง Console.Write จะแสดงผลของขอความออกหน้าจอโดยอยู่ในบรรทัดเดียวกัน
+
 
 
 ## 2. การทดลองเมดธอด Console.WriteLine()
@@ -71,46 +62,39 @@
  * สั่ง Run โปรแกรม เพื่อดูผลการทดลอง 
 
 บันทึกผลที่ได้จากการรันโปรแกรม
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
+ Console.WriteLine(“Hello”); เป็นการแสดงข้อมูลแบบขึ้นบันทัดใหม่
+
 
 แก้ไขโปรแกรม ให้เป็นดังรูปด้านล่างนี้
 
 ![](https://github.com/Desktop-Programming-Lab-2559/LAB-04/blob/master/imgs/P6.png)
 
  * สั่ง Run โปรแกรมและบันทึกผลที่ได้จากการรันโปรแกรม
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
+Console.WriteLine(“Hello”); Console.WriteLine(“world”); เป็นการแสดงข้อมูลแบบขึ้นบันทัดใหม่โดยทั้งสองข้อมูลจะไม่ได้อ่บรรทัดเดียวกัน
+
 
 ###คำถาม 4.2
 
 ผลที่ได้จากการทดลอง เป็นอย่างที่นักศึกษาคิดหรือไม่ อย่างไร  จงอธิบาย
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
+เป็น เพราะการใช้คำสั่ง Console.WriteLine เป็นการนำข้อมูลแสดงแบบขึ้นบรรทัดใหม่
+
 
 ### คำถาม 4.3 
 
 จงอธิบายความแตกต่างระหว่างคำสั่ง Console.Write() และ Console.WriteLine()
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
+ ข้อแตกต่างระหว่าง 2 คำสั่งคือในการแสดงข้อมูลเหมือนกัน แต่Console.Write จะนำข้อมูลออกมาแสดงโดยอยู่บรรทัดเดียวกันต่างจาก Console.WriteLine ที่จะแสดงบรรทัดใหม่ 
+
 
 ##สรุปผลการทดลอง
 
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
+เป็นการแสดงข้อมูลออกจอโดยใช้คำสั่งต่างๆ
 
+
+
+![](https://github.com/Freddielove29/LAB-04/blob/master/imgs/lab4.PNG?raw=true)
+
+![](https://github.com/Freddielove29/LAB-04/blob/master/imgs/lab4.2.PNG?raw=true)
+
+![](https://github.com/Freddielove29/LAB-04/blob/master/imgs/lab4.3.PNG?raw=true)
+
+![](https://github.com/Freddielove29/LAB-04/blob/master/imgs/lab4.4.PNG?raw=true)
